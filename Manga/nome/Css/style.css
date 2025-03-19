@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    color:white;
+}
+body header {
+
+}
+body header h1 {
+    text-align: center;
+    padding: 15px 0 15px 0px;
+    font-size: 64px;
+}
+body header hr {
+
+}
+body header nav {
+
+}
+body header nav button {
+
+}
+body main{
+    margin: 80px 0px 80px 0;
+
+}
+body main img {
+    margin: 0;
+}
+/* Portrait oriented screens */
+.image {
+    display: block;
+    width: 100%;
+}
+@media only screen and (orientation: portrait) and (min-width: 1080px) {
+    /* Portrait oriented big screens */
+    .image {
+        margin: auto;
+        display: block;
+        width: auto;
+    }
+}
+@media only screen and (orientation: landscape) and (min-width: 540px) {
+    /* Landscape oriented screens */
+    .image {
+        margin: auto;
+        display: block;
+        width: 800px;
+    }
+}
+
+body footer {
+
+}
+body footer hr{
+
+}
+body footer nav button{
+
+}
+body nav {
+    text-align: center;
+}
+body nav button {
+    margin: 0 10px 0 10px;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+}
+body hr {
+    margin: 20px 0px 20px 0;
+}
